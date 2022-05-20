@@ -24,3 +24,35 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+.title {
+  display:flex;
+  justify-content: center;
+  margin-bottom:32px;
+}
+
+.item1, .item2, .item3, .item4 {
+  display:flex;
+  flex-direction: column;
+  width:200px;
+  height:200px;
+  justify-content: center;
+}
+
+.item1-img, .item2-img, .item3-img, .item4-img { 
+  display:flex;
+  justify-content: center;
+
+}
+
+.item1-description,.item2-description, .item3-description, .item4-description { 
+  text-align: center;
+}
+
+.content {
+  display:flex;
+  justify-content: center;
+  gap:52px;
+}
