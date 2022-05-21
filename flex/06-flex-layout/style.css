@@ -25,3 +25,65 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* solution */
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header ul {
+  padding:0;
+  gap: 15px;
+}
+
+.content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px;
+  align-items: center;
+  background-color: #eee;
+}
+
+.footer ul {
+  padding:0;
+  gap: 15px;
+}
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  padding:10px;
+}
